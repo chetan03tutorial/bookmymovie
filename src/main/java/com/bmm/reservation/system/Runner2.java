@@ -1,6 +1,5 @@
 package com.bmm.reservation.system;
 
-import com.bmm.reservation.system.config.AppConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
@@ -11,7 +10,7 @@ public class Runner2 {
 
     public static void run(String[] args){
         // Manually creating an application context from AppConfig.
-        ConfigurableApplicationContext rootContext = SpringApplication.run(AppConfig.class, args);
+        ConfigurableApplicationContext rootContext = SpringApplication.run(WebConfig.class, args);
         ServletContext servletContext = rootContext.getBean(ServletContext.class);
         System.out.println("values in servlet context is " + servletContext.getInitParameter("unnecessary-argument"));
 
