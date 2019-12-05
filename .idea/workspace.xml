@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96a1a0b7-b02b-4a03-b039-85d6f4e5c776" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/JettyWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/annotations/IgnoreDuringScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/beans/LocationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/root/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/servlets/ApplicationSecurityServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jettyconfig/JettyWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jettyconfig/SevletWebAppContextConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/BMMRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/BMMRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/service/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/JettyWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/RootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/BMMRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/BMMRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/BaseRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/BaseRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/DbConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/DbConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/RootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/RootConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/Runner2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/Runner2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/Runner4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/Runner4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/Runner5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/Runner5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/SpringBootApplicationDrivenApplicationRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/SpringBootApplicationDrivenApplicationRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/controller/ReservationSystemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/controller/ReservationSystemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/dao/MovieDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/dao/MovieDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/model/movie/MovieInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/model/movie/MovieInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/onstartup/conf/DbInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/onstartup/conf/DbInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookmymovie/WEB-INF/classes/com/bmm/reservation/system/service/ReservationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/BMMRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/BMMRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/BaseRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/BaseRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/JettyWebApplicationInitializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/JettyWebApplicationInitializer$MyServletContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/JettyWebApplicationInitializer$WebAppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/JettyWebApplicationInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/RootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/RootConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/Runner2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/Runner2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/Runner4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/Runner4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/Runner5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/Runner5.class" afterDir="false" />
@@ -17,8 +41,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bmm/reservation/system/service/ReservationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-dal.CatalogDalTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/dal.CatalogDalTest.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +48,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -62,20 +88,24 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chesharm0\IdeaProjects\bookmymovie\src" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chesharm0\IdeaProjects\bookmymovie\src\main\resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bmm.reservation.system" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\chesharm0\IdeaProjects\bookmymovie\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,13 +120,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BMMRunner">
+  <component name="RunManager" selected="Application.JettyWebApplicationRunner">
     <configuration name="ApplicationInitializerUsingSpringWebApplicationInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bmm.reservation.system.ApplicationInitializerUsingSpringWebApplicationInitializer" />
       <module name="bookmymovie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bmm.reservation.system.*" />
+          <option name="PATTERN" value="jettyconfig.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,7 +139,20 @@
       <module name="bookmymovie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bmm.reservation.system.*" />
+          <option name="PATTERN" value="jettyconfig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JettyWebApplicationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jettyconfig.JettyWebApplicationRunner" />
+      <module name="bookmymovie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jettyconfig.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,20 +165,7 @@
       <module name="bookmymovie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bmm.reservation.system.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bmm.reservation.system.Runner5" />
-      <module name="bookmymovie" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bmm.reservation.system.*" />
+          <option name="PATTERN" value="jettyconfig.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,7 +178,7 @@
       <module name="bookmymovie" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bmm.reservation.system.*" />
+          <option name="PATTERN" value="jettyconfig.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JettyWebApplicationRunner" />
         <item itemvalue="Application.BMMRunner" />
         <item itemvalue="Application.ApplicationInitializerUsingSpringWebApplicationInitializer" />
         <item itemvalue="Application.ScriptTest" />
         <item itemvalue="Application.ReservationService" />
-        <item itemvalue="Application.Runner5" />
       </list>
     </recent_temporary>
   </component>
@@ -196,41 +226,31 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/controller/ReservationSystemController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/RootConfig.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/controller/ReservationSystemController.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/WebConfig.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/controller/ReservationSystemController.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/WebConfig.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/controller/ReservationSystemController.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/service/ReservationService.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/service/ReservationService.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/bmm/reservation/system/service/ReservationService.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/src/main/java/jettyconfig/JettyWebApplicationInitializer.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bookmymovie$BMMRunner.ic" NAME="BMMRunner Coverage Results" MODIFIED="1575524696498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bmm.reservation.system.*</FILTER>
+    </SUITE>
   </component>
 </project>

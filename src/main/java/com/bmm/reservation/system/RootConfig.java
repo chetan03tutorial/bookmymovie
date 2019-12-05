@@ -1,5 +1,6 @@
 package com.bmm.reservation.system;
 
+import com.bmm.reservation.system.annotations.IgnoreDuringScan;
 import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +12,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import java.io.IOException;
 
 @Configuration
-@ComponentScan("com.bmm.reservation.system")
+@ComponentScan(basePackages = {"com.bmm.reservation.system"}, excludeFilters = {@ComponentScan.Filter(IgnoreDuringScan.class)})
 @EnableAutoConfiguration
 public class RootConfig {
     @Bean
