@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.BiFunction;
+import java.util.function.Function;
 
 @RestController
 @RequestMapping("/movies")
@@ -20,7 +22,14 @@ public class ReservationSystemController {
     @GetMapping("/movies/{movieId}")
     public MovieInfo getMovie(@PathVariable("movieId") Integer movieId){
         System.out.println("Movie Id is " + movieId);
-        MovieInfo movieInfo = reservationService.getMovie(movieId);
+        //MovieInfo movieInfo = reservationService.getMovie(movieId);
+
+        //Function<Integer,MovieInfo> f = reservationService :: getMovie;
+        //f.apply(movieId);
+
+        BiFunction<ReservationService,Integer,MovieInfo> biFunc = ReservationService::getMovie;
+        MovieInfo movieInfo = biFunc.apply(reservationService,movieId);
+
         return movieInfo;
     }
 

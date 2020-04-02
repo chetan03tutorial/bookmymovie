@@ -68,7 +68,7 @@ public class DbConfig {
     }
 
     /**
-     * This is a configuration class for configuring the datasource, JPA Vendor specific properties and Transaction Manager
+     * This is a configuration class for configuring the datasource,r JPA Vendor specific properties and Transaction Manager
      */
     @Bean
     public JpaVendorAdapter jpaVendorAdapter() {

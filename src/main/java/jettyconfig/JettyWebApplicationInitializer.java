@@ -23,7 +23,7 @@ import java.util.Optional;
  */
 @Configuration
 // All beans defined in the below base package will be registered as the root context
-@ComponentScan(basePackages = {"com.bmm.reservation.system.root"})
+@ComponentScan(basePackages = {"com.bmm.reservation.system"})
 public class JettyWebApplicationInitializer {
 
     @Bean

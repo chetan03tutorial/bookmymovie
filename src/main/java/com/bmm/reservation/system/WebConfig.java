@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class WebConfig {
 
-    @Bean
+    /*@Bean
     public ServletWebServerFactory jettyWebServerFactory(){
         JettyServletWebServerFactory jetty = new JettyServletWebServerFactory();
         jetty.addInitializers(new DbInitializer());
         jetty.setContextPath("/bookmymovie");
         jetty.setPort(9080);
         return jetty;
-    }
+    }*/
 }
